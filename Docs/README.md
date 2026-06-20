@@ -28,10 +28,10 @@ Chess/
 ├── Docs/                               # Project documentation & roadmap
 │   ├── README.md                       # This file
 │   ├── EN/                             # Detailed English docs
-│   │   ├── 01-INTRODUCTION.md          # Concept, goals, and tech stack
-│   │   ├── 02-ARCHITECTURE.md          # Data flow and assembly boundaries
-│   │   ├── 03-PHASE-PLAN.md            # Detailed task roadmap
-│   │   └── 04-CONVENTIONS.md           # Coding standards & git conventions
+│   │   ├── INTRODUCTION.md             # Concept, goals, and tech stack
+│   │   ├── ARCHITECTURE.md             # Data flow and assembly boundaries
+│   │   ├── PHASE-PLAN.md               # Detailed task roadmap
+│   │   └── CONVENTIONS.md              # Coding standards & git conventions
 │   └── VI/                             # Detailed Vietnamese docs (to be added)
 │
 └── Assets/
@@ -55,12 +55,12 @@ Development is organized into the following logical phases:
 * **Phase 4 — Polish & UX**: Tweening animations, sounds, save/load game state, and UI responsiveness.
 * **Phase 5 — Online Multiplayer (Optional)**: Lobby, matchmaking, and authority-backed server validation.
 
-For details, tasks, and criteria of completion, please see the [03-PHASE-PLAN.md](./EN/03-PHASE-PLAN.md).
+For details, tasks, and criteria of completion, please see the [PHASE-PLAN.md](./EN/PHASE-PLAN.md).
 
 ---
 
 ## 🛠️ Getting Started & Conventions
 
-Before contributing or modifying the codebase, please review the rules and coding guidelines in [04-CONVENTIONS.md](./EN/04-CONVENTIONS.md). 
+Before contributing or modifying the codebase, please review the rules and coding guidelines in [CONVENTIONS.md](./EN/CONVENTIONS.md). 
 - All core logic code should be developed using a **test-first** approach.
 - Maintain strict boundaries between assemblies (`ChessCore` must never import `UnityEngine`).

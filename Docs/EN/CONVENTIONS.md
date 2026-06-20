@@ -17,14 +17,14 @@
 ## 3. Git Workflow
 
 - Main branch: `main` — must always compile and remain in a stable, buildable state.
-- Each Task in `03-PHASE-PLAN.md` → a dedicated feature branch: `phase1/task-1.4-move-generator`.
+- Each Task in `PHASE-PLAN.md` → a dedicated feature branch: `phase1/task-1.4-move-generator`.
 - Concise commit messages with prefixes denoting the type of change:
   - `feat: ...` — new feature
   - `fix: ...` — bug fix
   - `test: ...` — adding/modifying tests
   - `refactor: ...` — code restructuring without behavioral changes
   - `docs: ...` — documentation updates (including files in `Docs/`)
-- Upon completing a task, check off the item `[x]` in `03-PHASE-PLAN.md` within the same commit or PR.
+- Upon completing a task, check off the item `[x]` in `PHASE-PLAN.md` within the same commit or PR.
 
 ## 4. Testing
 
@@ -43,13 +43,13 @@ A task is considered **Done** when:
 1. Code compiles without errors or new warnings.
 2. Corresponding unit tests are implemented (if in `ChessCore`/`ChessAI`) and all tests pass.
 3. Manual verification has been completed in the Unity Editor (if UI-related).
-4. The checkbox `[x]` in `03-PHASE-PLAN.md` has been checked.
+4. The checkbox `[x]` in `PHASE-PLAN.md` has been checked.
 5. Code is committed/pushed with a clear message adhering to section 3 guidelines.
 
 ## 6. Suggested Coding Session Workflow
 
-1. Open `03-PHASE-PLAN.md` and select the next uncompleted task in the current phase.
-2. Review the relevant sections in `02-ARCHITECTURE.md` to keep module boundaries in mind.
+1. Open `PHASE-PLAN.md` and select the next uncompleted task in the current phase.
+2. Review the relevant sections in `ARCHITECTURE.md` to keep module boundaries in mind.
 3. Write the unit tests first (if implementing rules logic) → write code until the tests pass.
 4. Run the entire test suite to ensure no regressions occur.
 5. Update documentation if any architectural assumptions change.

@@ -9,7 +9,7 @@
 **Goal:** Get a working Unity project running with the correct directory structure, ready for coding.
 
 - [ ] **Task 0.1** — Create a Unity project (choose a 3D or 2D core template depending on how you wish to display the chessboard).
-- [ ] **Task 0.2** — Create the directory structure `Assets/Scripts/{ChessCore, ChessAI, UnityIntegration, Tests}` as described in `02-ARCHITECTURE.md`.
+- [ ] **Task 0.2** — Create the directory structure `Assets/Scripts/{ChessCore, ChessAI, UnityIntegration, Tests}` as described in `ARCHITECTURE.md`.
 - [ ] **Task 0.3** — Create three `.asmdef` files: `ChessCore.asmdef`, `ChessAI.asmdef` (references `ChessCore`), and the default assembly for `UnityIntegration` (references both of the above).
 - [ ] **Task 0.4** — Install the Unity Test Framework and create a dummy test to ensure Edit Mode Tests are operational.
 - [ ] **Task 0.5** — Initialize a Git repository (if not already done) and add a standard `.gitignore` for Unity (ignoring `Library/`, `Temp/`, `Logs/`, `*.csproj`, etc.).
